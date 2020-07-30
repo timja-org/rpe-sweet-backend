@@ -3,6 +3,8 @@ kind: Component
 metadata:
   name: "rpe-sweet-backend"
   description: Sweet as backend
+  annotations:
+    github.com/project-slug: 'timja-org/rpe-sweet-backend'
 spec:
   type: service
   lifecycle: experimental
