@@ -4,8 +4,6 @@ pipeline {
    stages {
       stage('Build') {
          steps {
-            // Get some code from a GitHub repository
-        
             sh """
             export JAVA_HOME=/Users/timja/.sdkman/candidates/java/11.0.7.j9-adpt
             export PATH=${JAVA_HOME}/bin:${PATH}
