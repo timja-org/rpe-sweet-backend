@@ -4,7 +4,7 @@ metadata:
   name: "rpe-sweet-backend"
   description: Sweet as backend
   annotations:
-    github.com/project-slug: 'timja-org/rpe-sweet-backend'
+    backstage.io/github-actions-id: 'timja-org/rpe-sweet-backend'
     backstage.io/jenkins-github-folder: 'timja-org/rpe-sweet-backend'
 spec:
   type: service
