@@ -16,11 +16,11 @@ pipeline {
             """*/
          }
 
-         post {
+         /*post {
             success {
                junit '*.xml'
             }
-         }
+         }*/
       }
       stage('Build-2') {
          steps {
