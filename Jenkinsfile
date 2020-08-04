@@ -26,7 +26,7 @@ pipeline {
          steps {
             sh """
             rm -f *.xml
-            wget https://raw.githubusercontent.com/jenkinsci/junit-plugin/master/src/test/resources/hudson/tasks/junit/junit-report-1233.xml
+            wget https://raw.githubusercontent.com/jenkinsci/junit-plugin/master/src/test/resources/hudson/tasks/junit/junit-report-testsuite-time-attrs.xml
             """
         
             /*sh """
