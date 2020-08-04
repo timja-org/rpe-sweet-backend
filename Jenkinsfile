@@ -6,7 +6,7 @@ pipeline {
          steps {
             sh """
             rm -f *.xml
-            wget https://gist.githubusercontent.com/timja/918722bbedaa0a76b50c8af2c2d3254e/raw/1bea98d9e6a570a52ef922fb0bc1b67c55ce0dc0/mix-of-junit-failures.xml
+            #wget https://gist.githubusercontent.com/timja/918722bbedaa0a76b50c8af2c2d3254e/raw/1bea98d9e6a570a52ef922fb0bc1b67c55ce0dc0/mix-of-junit-failures.xml
             """
         
             /*sh """
