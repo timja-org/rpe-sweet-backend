@@ -10,3 +10,5 @@ spec:
   type: service
   lifecycle: experimental
   owner: timja
+  implementsApis:
+    - rpe-sweet-api
