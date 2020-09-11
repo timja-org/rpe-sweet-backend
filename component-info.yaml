@@ -6,6 +6,7 @@ metadata:
   annotations:
     jenkins.io/github-folder: 'timja-org/rpe-sweet-backend'
     github.com/project-slug: 'timja-org/rpe-sweet-backend'
+    backstage.io/techdocs-ref: github:https://github.com/timja-org/rpe-sweet-backend
 spec:
   type: service
   lifecycle: experimental
