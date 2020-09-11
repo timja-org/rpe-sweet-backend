@@ -9,6 +9,6 @@ metadata:
 spec:
   type: service
   lifecycle: experimental
-  owner: timja
+  owner: guest
   implementsApis:
     - rpe-sweet-api
